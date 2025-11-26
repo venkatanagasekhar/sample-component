@@ -1,10 +1,11 @@
+#For pull request
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sample-service
   description: demo service
   annotations:
-    github.com/project-slug: venkatanagasekhar/test
+    github.com/project-slug: venkatanagasekhar/sample-component
 spec:
   type: service
   owner: team-a
